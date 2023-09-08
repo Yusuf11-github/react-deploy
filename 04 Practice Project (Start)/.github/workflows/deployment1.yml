@@ -4,6 +4,8 @@ jobs:
     test:
         runs-on: ubuntu-latest
         steps:
+          - name: change the directory
+            run: cd 04 Practice Project (Start)
           - name: Get Code
             uses: actions/checkout@v3
           - name: Setup Node
